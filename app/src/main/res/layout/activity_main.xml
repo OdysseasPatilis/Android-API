@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_primary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/secondEdittextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/thirdEdittextView"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="@font/allerta_regular"
+        android:text="CoronaVirus disease 19 is a contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV2). We created this app in order to inform you with real time data regarding this pandemic, which has beset our planet for almost a year now. "
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstEdittextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/thirdEdittextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="311dp"
+        android:fontFamily="@font/allerta_regular"
+        android:text="The ongoing virus has caused global social and economic disruption, including the largest global recession since the Great Depression. It has also led to the postponement or cancellation of events, widespread supply shortages exacerbated by panic buying and agricultural disruption."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondEdittextView"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/fourthEdittextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/thirdEdittextView"
+        android:layout_marginBottom="-191dp"
+        android:fontFamily="@font/allerta_regular"
+        android:text="In the following pages you will be supplied with real time Coronavirus cases, pictures and other more specific information in regard to the pandemic. "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdEdittextView"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thirdEdittextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="-221dp"
+        android:fontFamily="@font/allerta_regular"
+        android:text="More"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthEdittextView"
+        app:layout_constraintVertical_bias="0.345" />
+
+</RelativeLayout>
